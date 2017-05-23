@@ -1,0 +1,10 @@
+<ul>
+  <h3>{{title}}</h3>
+  <li ng-repeat="item in list">
+    <p ng-click="removeItem(item)">{{item.name}}</p>
+  </li>
+
+
+  <input ng-model="newItem" />
+  <button ng-click="addItem(newItem)">Add Item</button>
+ </ul>

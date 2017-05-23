@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+  <title>Directives</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body ng-controller="mainCtrl">
+
+
+
+  <todo-list title="To dos" list="todos"></todo-list>
+  <todo-list title="Groceries" list="groceries"></todo-list>
+  <todo-list title="Reminders" list="reminders"></todo-list>
+  <todo-list title="Ideas" list="ideas"></todo-list>
+
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js'></script>
+  <script src="app.js"></script>
+  <script src="mainCtrl.js"></script>
+  <script src="todoList.js"></script>
+</body>
+</html>
